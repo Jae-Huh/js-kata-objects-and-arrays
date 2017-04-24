@@ -3,6 +3,9 @@
 //   key: value
 // }
 function makeObject (key, value) {
+  var obj = {}
+  obj[key] = value
+  return obj
 }
 
 // getValue should return the value of the property contained in `key`
